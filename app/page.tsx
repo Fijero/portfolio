@@ -5,6 +5,7 @@ import { SiGithub, SiIndeed, SiX } from "react-icons/si";
 
 import { CgStack, CgListTree } from "react-icons/cg";
 import { ArrowUpRightIcon } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   const stackList = [
@@ -100,14 +101,14 @@ export default function Home() {
       </div>
 
       {/* content */}
-      <div className="relative z-10 min-h-screen flex justify-center">
+      <div className="relative z-10 min-h-screen flex justify-center py-15">
         <div className="w-full max-w-3xl px-6 py-10 border-amber-50 border-0">
           <div>
             <p className="text-4xl text-amber-100/50 font-extrabold leading-12">
               CHUKWUEMEZIE <br /> EMMANUEL <br /> UZOMA
             </p>
 
-            <div className="my-5"></div>
+            <div className="my-10"></div>
 
             <div className="flex justify-end text-amber-700 [&>div]:mx-2">
               {socials.map((social) => {
@@ -126,15 +127,15 @@ export default function Home() {
               })}
             </div>
 
-            <div className="my-5"></div>
+            <div className="my-7"></div>
 
-            <div className="[&>p]:text-gray-500 [&>p]:my-5 [&>p]:text-sm">
+            <div className="[&>p]:text-gray-500 [&>p]:my-6 [&>p]:text-sm">
               <p className="text-amber-50">
                 Founder & CTO of {"  "}
                 <Link
                   href={"https://erranly.com"}
                   target="_blank"
-                  className="text-amber-900 text-xl font-medium"
+                  className="text-amber-700 text-xl font-medium"
                 >
                   Erranly
                 </Link>
@@ -169,7 +170,7 @@ export default function Home() {
 
           <div className="my-10"></div>
 
-          <div className="text-amber-700/80 flex flex-row items-center font-semibold">
+          <div className="text-amber-700 flex flex-row items-center font-semibold">
             PROVEN STACK <CgStack className="m-1" />
           </div>
           <div className="my-5"></div>
@@ -184,7 +185,7 @@ export default function Home() {
           </div>
           <div className="my-10"></div>
 
-          <div className="text-amber-700/80 flex flex-row items-center font-semibold">
+          <div className="text-amber-700 flex flex-row items-center font-semibold">
             PROJECTS <CgListTree className="m-1" />
           </div>
           <div className="my-5"></div>
@@ -197,11 +198,11 @@ export default function Home() {
                 >
                   <div>
                     <div className="flex flex-row justify-between">
-                      <p className="text-gray-100/60 text-xl">{project.name}</p>
+                      <p className="text-gray-100/70 text-xl">{project.name}</p>
                       {project.github != null && (
                         <div className="flex flex-row items-center">
                           <Badge
-                            className=" text-amber-100/70 p-3"
+                            className=" text-gray-400 p-3"
                             render={
                               <a href={project.github} target="_blank">
                                 <SiGithub /> GitHub
@@ -212,10 +213,11 @@ export default function Home() {
                         </div>
                       )}
                     </div>
-                    <p className="text-gray-100/40 leading-6 text-sm">
+                    <div className="my-2"></div>
+                    <p className="text-gray-500 leading-6 text-sm">
                       {project.desc}
                     </p>
-                    <div className="my-5"></div>
+                    <div className="my-7"></div>
 
                     <div className="flex flex-row items-center flex-wrap">
                       <span className="text-gray-600 text-xs">STACK: </span>
@@ -254,6 +256,14 @@ export default function Home() {
                 </div>
               );
             })}
+          </div>
+
+          <div className="mt-15"></div>
+
+          <div className="text-gray-500 flex flex-row items-center w-20 gap-2 m-auto justify-center">
+            <Separator/>
+            <span className="whitespace-nowrap text-sm">That's all for now!</span>
+            <Separator />
           </div>
         </div>
       </div>
