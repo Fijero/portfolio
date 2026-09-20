@@ -97,7 +97,7 @@ export default function Home() {
         <Image src="/images/star_bg.png" alt="" fill className="object-cover" />
 
         {/* overlay */}
-        <div className="absolute inset-0 bg-linear-to-br from-black via-black/95 to-black" />
+        <div className="absolute inset-0 bg-linear-to-br from-gray-950 via-black/95 to-gray-950" />
       </div>
 
       {/* content */}
