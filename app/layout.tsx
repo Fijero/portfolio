@@ -11,7 +11,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   icons: [],
   title: "Chukwuemezie Emmanuel Uzoma",
-  description: "Chukwuemezie Emmanuel Uzoma' Portfolio",
+  description: "Chukwuemezie Emmanuel Uzoma's Portfolio || Software Engineer Full Stack Engineer",
   keywords: [
     "Chukwuemezie",
     "chukwuemezie Emmanuel",
