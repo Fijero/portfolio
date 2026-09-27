@@ -95,10 +95,10 @@ export default function Home() {
       github: "https://github.com/Fijero/doofy",
       stack: ["Flutter", "Dart", "Firebase"],
       platforms: [
-        // {
-        //   name: "Android",
-        //   url: "https://short-url.fijero.dev/",
-        // },
+        {
+          name: "Android",
+          url: "https://fijero.dev/",
+        },
       ],
     },
   ];
