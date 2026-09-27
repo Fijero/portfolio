@@ -88,6 +88,19 @@ export default function Home() {
         },
       ],
     },
+
+    {
+      name: "Doofy",
+      desc: "Food Allergy and Nutrition Alert Mobile App",
+      github: "https://github.com/Fijero/doofy",
+      stack: ["Flutter", "Dart", "Firebase"],
+      platforms: [
+        // {
+        //   name: "Android",
+        //   url: "https://short-url.fijero.dev/",
+        // },
+      ],
+    },
   ];
 
   return (
@@ -261,8 +274,10 @@ export default function Home() {
           <div className="mt-15"></div>
 
           <div className="text-gray-500 flex flex-row items-center w-20 gap-2 m-auto justify-center">
-            <Separator/>
-            <span className="whitespace-nowrap text-sm">That's all for now!</span>
+            <Separator />
+            <span className="whitespace-nowrap text-sm">
+              That's all for now!
+            </span>
             <Separator />
           </div>
         </div>
