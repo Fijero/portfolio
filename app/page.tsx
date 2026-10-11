@@ -33,7 +33,7 @@ export default function Home() {
     {
       icon: SiIndeed,
       text: "LinkedIn",
-      url: "https://www.linkedin.com/in/emmanuel-uzoma-b947b7229",
+      url: "www.linkedin.com/in/emmanuel-chukwuemezie-b947b7229",
     },
   ];
 
