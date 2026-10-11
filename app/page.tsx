@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
-import { SiGithub, SiIndeed, SiX } from "react-icons/si";
+import { SiGithub, SiGmail, SiIndeed, SiMailbox, SiMessenger, SiX } from "react-icons/si";
 
 import { CgStack, CgListTree } from "react-icons/cg";
 import { ArrowUpRightIcon } from "lucide-react";
@@ -20,6 +20,11 @@ export default function Home() {
   ];
 
   const socials = [
+    {
+      icon: SiGmail,
+      text: "Email Me",
+      url: "mailto:emmanueluzoma969@gmail.com",
+    },
     {
       icon: SiGithub,
       text: "Github",
