@@ -138,7 +138,7 @@ export default function Home() {
                       className="flex flex-row items-center"
                     >
                       <Icon className="m-1" />{" "}
-                      <span className="text-sm"> {social.text}</span>
+                      <span className="text-sm whitespace-nowrap"> {social.text}</span>
                     </Link>
                   </div>
                 );
